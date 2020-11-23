@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 //Routes
-function htmlRoutes(app){
+module.exports = function(app){
    
     
     app.get('/notes', function(req, res){
@@ -13,4 +13,3 @@ function htmlRoutes(app){
         res.sendFile(path.join(__dirname, "../public/index.html"));
     })
 }
-module.exports = htmlRoutes;

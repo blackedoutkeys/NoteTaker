@@ -6,9 +6,9 @@ const app = express();
 
 
 
-app.get("/", function(req, res){
-    res.send("Server is up and running.");
-})
+// app.get("/", function(req, res){
+//     res.send("Server is up and running.");
+// })
 
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json())
@@ -22,7 +22,7 @@ require('./routes/routes.js')(app)
 
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log("Server is running on Port" + PORT);
 });
 

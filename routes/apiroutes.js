@@ -3,7 +3,7 @@ const { stringify } = require("querystring");
 const notes = require("../db/db.json");
 const { v4: uuidv4 } = require('uuid');
 //Routes
-function apiRoutes(app){
+module.exports = function (app){
     app.get('/api/notes', function(req, res){
         res.json(notes);
     })
@@ -12,7 +12,7 @@ function apiRoutes(app){
     app.post('/api/notes', function(req,res){
         req.body.id = uuidv4();
         
-        //console.log(req.body);
+        console.log(req.body);
         //Push db.json into req.body
         notes.push(req.body);
         fs.writeFile("./db/db.json", JSON.stringify(notes), function(err){
@@ -37,4 +37,3 @@ function apiRoutes(app){
     })
 
 }
-module.exports = apiRoutes;
