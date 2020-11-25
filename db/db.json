@@ -1,1 +1,9 @@
-[{"title":"Test","text":"Just testing","id":1},{"title":"Test2","text":"Test2","id":"929c857a-b444-438e-ab9e-8657f905404a"}]
+[{
+    "title": "Sample Note",
+    "text": "Click the pencil icon in the top right corner to begin!",
+    "id": 1
+}, {
+    "title": "Hello!",
+    "text": "Thank you for using my note taking app. All Notes are saved to the database for access later!",
+    "id": "3da9d7c1-75f9-4d98-ad86-7cabe2ce520d"
+}]
