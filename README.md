@@ -41,15 +41,15 @@ This is an application that can be used to write, save, and delete notes. This a
 
   ## Images
 
-  ![Image of Landing Page](https://github.com/blackedoutkeys/readmeGenerator/blob/main/images/gitbashimage.png)
+  ![Image of Landing Page](https://github.com/blackedoutkeys/NoteTaker/blob/main/pictures/homePage.png)
 
-  ![Image of Main NoteBook](https://github.com/blackedoutkeys/readmeGenerator/blob/main/images/readmeimage.png)
+  ![Image of Main NoteBook](https://github.com/blackedoutkeys/NoteTaker/blob/main/pictures/openingPage.png)
 
-  ![Image of Note Creation](https://github.com/blackedoutkeys/readmeGenerator/blob/main/images/gitbashimage.png)
+  ![Image of Note Creation](https://github.com/blackedoutkeys/NoteTaker/blob/main/pictures/newNote.png)
 
-  ![Image of Active Note](https://github.com/blackedoutkeys/readmeGenerator/blob/main/images/gitbashimage.png)
+  ![Image of Active Note](https://github.com/blackedoutkeys/NoteTaker/blob/main/pictures/sampleNote.png)
 
-  ![Image of Active Database Info](https://github.com/blackedoutkeys/readmeGenerator/blob/main/images/gitbashimage.png)
+  ![Image of Active Database Info](https://github.com/blackedoutkeys/NoteTaker/blob/main/pictures/databaseNotes.png)
 
   ## Contributions
   Isaac Frishman. This project was completed as part of the full-stack development program through Michigan State University.
